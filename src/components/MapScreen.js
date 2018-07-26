@@ -3,9 +3,9 @@ import { View } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 import axios from 'axios';
 
-const GOOGLE_MAPS_APIKEY = 'AIzaSyA4JT0AoX6pNp0MpLyCW_SGjq4ZN9AIV7c'
+
 const ROOT_URL = 'https://maps.googleapis.com/maps/api/geocode/json?address=';
-const URL_2 = '&key=AIzaSyDV8ZIEZa7xq8WH_QzoyQcB-W3HN16io94';
+
 const QUERY_URL = 'http://api.integritysoftwares.com//api/Loaction?lat=';
 
 const LATITUDE_DELTA = 0.01;
