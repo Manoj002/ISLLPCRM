@@ -5,9 +5,9 @@ import MapViewDirections from 'react-native-maps-directions';
 import { Card, Divider } from 'react-native-elements';
 import axios from 'axios';
 
-const GOOGLE_MAPS_APIKEY = 'AIzaSyDluHCjVWQX6wW134babqAHRdYRG-84Dz0'
+
 const ROOT_URL = 'https://maps.googleapis.com/maps/api/geocode/json?address=';
-const URL_2 = '&key=AIzaSyDV8ZIEZa7xq8WH_QzoyQcB-W3HN16io94';
+
 
 const LATITUDE_DELTA = 0.01;
 const LONGITUDE_DELTA = 0.01;
